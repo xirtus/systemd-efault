@@ -434,7 +434,7 @@ static int process_magic_file(
                 log_warning("Hash of best before marker file '%s' has unexpected value, proceeding anyway.", fn);
 
         struct tm parsed_tm = {};
-        const char *n strptime(e, "%Y-%m-%d", &parsed_tm);
+        const char *n = strptime(e, "%Y-%m-%d", &parsed_tm);
         if (!n || *n != 0) {
                 // Parsing failed
                 log_warning("Found best before marker with an invalid date, ignoring: %s", fn);

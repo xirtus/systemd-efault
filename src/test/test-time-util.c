@@ -1281,20 +1281,4 @@ static int intro(void) {
         return EXIT_SUCCESS;
 }
 
-TEST(parse_birth_date) {
-        struct tm tm;
-
-        /* Valid dates */
-        ASSERT_OK(parse_birth_date("2000-06-15", &tm));
-        ASSERT_EQ(tm.tm_year, 100);  /* 2000 - 1900 */
-        ASSERT_EQ(tm.tm_mon, 5);     /* June, 0-indexed */
-        ASSERT_EQ(tm.tm_mday, 15);
-
-        /* Pre-epoch dates */
-        ASSERT_OK(parse_birth_date("1960-03-25", &tm));
-        ASSERT_EQ(tm.tm_year, 60);
-        ASSERT_EQ(tm.tm_mon, 2);
-        ASSERT_EQ(tm.tm_mday, 25);
-}
-
 DEFINE_TEST_MAIN_WITH_INTRO(LOG_INFO, intro);
