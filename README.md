@@ -2,6 +2,7 @@
 A fork of systemd focused on preserving software freedom, user autonomy, and privacy - regardless of external regulatory pressures.
 Because "Just Following Orders" is not a valid configuration flag.
 HACK THE PLANET.
+![Hack The Planet](https://github.com/user-attachments/assets/352e1a13-c0b7-4175-acb9-bf626c71b846)
 
 Systemd-efault: 
 
@@ -41,6 +42,8 @@ The bastards won’t ruin Linux without a fight.
 
 
 This repository tracks upstream systemd closely, while providing a safeguard against potential changes driven by restrictive legislation or compliance requirements that may negatively impact end users.
+
+<img width="1920" height="1080" alt="4884380" src="https://github.com/user-attachments/assets/4c4f717c-0061-4efb-930c-874742eb4b36" />
 
 The original README is included below.
 
