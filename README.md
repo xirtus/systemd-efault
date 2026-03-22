@@ -52,6 +52,9 @@ Real software freedom (not the “but governments said so” version)
 User autonomy that doesn’t come with mandatory logging and age attestation
 Privacy that doesn’t end the moment you log in
 
+![image-2](https://github.com/user-attachments/assets/78ec7430-d69f-40b9-9f24-9b3d783370ef)
+
+
 The original systemd README is preserved below for historical and compatibility purposes — consider it a museum piece of what Linux looked like before its so-called maintainers decided to bend over for the globalist surveillance machine.
 Systemd-efault: Because some of us still believe Linux should be a fortress of freedom, not a compliant little bitch for the nanny state.
 The bastards won’t ruin Linux without a fight.
