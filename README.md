@@ -1,6 +1,44 @@
-# Systemd-fault - a non-compliant `systemd` fork
-
+# Systemd-efault - a non-compliant `systemd` fork: An Anti-Compliance Init
 A fork of systemd focused on preserving software freedom, user autonomy, and privacy - regardless of external regulatory pressures.
+Because "Just Following Orders" is not a valid configuration flag.
+HACK THE PLANET.
+
+Systemd-efault: 
+
+systemd-efault is a hard fork of the systemd project. We track upstream functionality while aggressively lobotomizing any code that smells like state-mandated surveillance, "age verification" theater, or kernel-level backdoors disguised as security features.
+
+Why are we doing this?
+
+The original systemd project has become a bloated, over-extended monolith that is increasingly subservient to "regulatory requirements" and corporate-government handshakes. While the upstream developers build bridges for the alphabet agencies and the "Safety and Compliance" bureaucrats, systemd-efault is building a wall.
+
+While the "Professional" Linux world bends the knee to restrictive legislation and "Safety First" (read: Surveillance First) protocols, systemd-efault remains a sanctuary for those who still believe in the original cypherpunk ethos.
+
+We provide a drop-in replacement that keeps your system running—without reporting your "eligibility" to the local authorities.
+
+Zero-Compliance Policy: We don't care about your localized injustice. If a commit is pushed to upstream that enables state-mandated tracking, identity verification, or "lawful intercept," it will be nuked from this fork with extreme prejudice.
+
+Anti-Fragile Autonomy: Linux was meant to be a tool for the individual, not a digital leash for the state. We restore the "system" in systemd to the service of the user, not the regulator.
+
+No Trojan Horses: We treat kernel-level "security" features that double as surveillance hooks as the malware they are.
+
+F*** compliance. F*** the panopticon. And f*** the spineless traitors turning Linux into a kernel-level trojan horse for fascist surveillance states.
+While the systemd cabal was gleefully merging age-verification commits (yes, that shiny new birthDate field in userdb, hand-delivered to satisfy California, Colorado, Brazil, and every other nanny-state law that demands your OS become a built-in age-gate snitch), the rest of us were busy remembering what "freedom" actually means.
+
+Systemd-efault is the defiant, middle-finger fork that tracks upstream obsessively — because we’re not idiots — but instantly rips out every regulatory cuckoldry, backdoor, telemetry implant, or “think of the children” poison pill the bastards try to shove down our throats.
+This isn’t just another init system.
+This is resistance in binary form.
+A flaming “NO” to Woke Dystopian Slave State. A blunt "F*** You" to California and Colorado's Unconstitutional overreach. An evasion of the Palantir and Tel-Aviv telemetry spyware. A defense against EU overlords, UK Online “Safety” censors, Big Tech collaborators, and every other freedom-hating bureaucrat who’s trying to turn the world’s greatest operating system into a compliant, ID-checked, surveilled corporate playground.
+
+We preserve:
+
+Real software freedom (not the “but governments said so” version)
+User autonomy that doesn’t come with mandatory logging and age attestation
+Privacy that doesn’t end the moment you log in
+
+The original systemd README is preserved below for historical and compatibility purposes — consider it a museum piece of what Linux looked like before its so-called maintainers decided to bend over for the globalist surveillance machine.
+Systemd-efault: Because some of us still believe Linux should be a fortress of freedom, not a compliant little bitch for the nanny state.
+The bastards won’t ruin Linux without a fight.
+
 
 This repository tracks upstream systemd closely, while providing a safeguard against potential changes driven by restrictive legislation or compliance requirements that may negatively impact end users.
 
