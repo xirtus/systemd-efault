@@ -1,12 +1,24 @@
-# Systemd-efault - a non-compliant `systemd` fork: An Anti-Compliance Init
+# Efault (Systemd-efault) - a non-compliant `systemd` fork: An Anti-Compliance Init
 A fork of systemd focused on preserving software freedom, user autonomy, and privacy - regardless of external regulatory pressures.
 Because "Just Following Orders" is not a valid configuration flag.
 HACK THE PLANET.
 ![Hack The Planet](https://github.com/user-attachments/assets/352e1a13-c0b7-4175-acb9-bf626c71b846)
 
-Systemd-efault: 
+Efault Systemd-efault: 
 
-systemd-efault is a hard fork of the systemd project. We track upstream functionality while aggressively lobotomizing any code that smells like state-mandated surveillance, "age verification" theater, or kernel-level backdoors disguised as security features.
+Efault (systemd-efault) is a hard fork of the systemd project. We track upstream functionality while aggressively lobotomizing any code that smells like state-mandated surveillance, "age verification" theater, or kernel-level backdoors disguised as security features.
+
+- **No more surveillance/compliance poison** (age verification, birthDate in userdb, any future "think of the children" backdoors — ripped out forever)
+- **No more journald binary log cancer** (disabled by default — syslog or GTFO)
+- **No scope creep bullshit** (networkd, resolved, timesyncd, homed, portabled, firstboot, sysusers — all dead or optional)
+- **No monolithic PID1 nightmare** — we ship a minimal build profile that finally respects Unix philosophy
+- **No Red Hat registry-in-disguise** — everything unnecessary is compile-time murdered
+- **Musl support revived** (because why the hell not)
+- Classic runlevel compatibility and traditional tool fallbacks for actual human beings
+
+This isn't just a spite fork.  
+This is **the systemd fork Devuan users might actually tolerate** — the one you can build in "efault-mode" and feel like you're running a sane init system again instead of a corporate panopticon.
+
 
 Why are we doing this?
 
